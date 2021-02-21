@@ -1,8 +1,8 @@
-title: Hoya012's Research Blog
-description: Study Blog with paper reviews.
+title: SeongHoon's Study Blog
+description: Study Blog
 
 #url: http://brianmaierjr.github.com/long-haul
-url: https://hoya012.github.io/
+url: https://u2vvbmdob29uugfyaw.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,15 +20,14 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about
+   #url: /about
  - title: Archives
    #url: /archives
-   url: /contact
 
 social:
-   github: hoya012
+   #github: brianmaierjr
    #twitter: brianmaierjr
-   facebook: 2.hoseong
-   email: hoseong.lee@cognex.com
+   #facebook: brianmaierjr
+   #email:
 
 google_analytics: "UA-58263416-1"
