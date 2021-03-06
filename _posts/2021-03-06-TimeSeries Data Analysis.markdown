@@ -2,6 +2,7 @@
 layout: post
 title:  시계열 데이터 분석
 date:   2021-03-06
+use_math: true
 description: 시계열 데이터에서의 비정상 탐지
 ---
 
