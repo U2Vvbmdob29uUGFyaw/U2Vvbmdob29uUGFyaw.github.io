@@ -19,7 +19,7 @@ Exponential smoothing is a rule of thumb technique for smoothing time series dat
 
 Exponential smoothing is one of many window functions commonly applied to smooth data in signal processing, acting as low-pass filters to remove high-frequency noise. This method is preceded by Poisson's use of recursive exponential window functions in convolutions from the 19th century, as well as Kolmogorov and Zurbenko's use of recursive moving averages from their studies of turbulence in the 1940s.
 
-The raw data sequence is often represented by ${x~t~}$ beginning at time $t=0$, and the output of the exponential smoothing algorithm is commonly written as ${s~t~}$, which may be regarded as a best estimate of what the next value of $x$ will be. When the sequence of observations begins at time $t=0$, the simplest form of exponential smoothing is given by the formulas
+The raw data sequence is often represented by $${x~t~}$$ beginning at time $t=0$, and the output of the exponential smoothing algorithm is commonly written as ${s~t~}$, which may be regarded as a best estimate of what the next value of $x$ will be. When the sequence of observations begins at time $t=0$, the simplest form of exponential smoothing is given by the formulas
 
 $s~0~ = x~0~$
 $s~t~ = \alpha x~t~ + (1-\alpha)s~t-1~, t>0$
