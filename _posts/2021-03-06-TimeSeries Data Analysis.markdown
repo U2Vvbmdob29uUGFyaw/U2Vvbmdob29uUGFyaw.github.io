@@ -22,8 +22,8 @@ Exponential smoothing is one of many window functions commonly applied to smooth
 
 The raw data sequence is often represented by ${x_{t}}$ beginning at time $t=0$, and the output of the exponential smoothing algorithm is commonly written as ${s_{t}}$, which may be regarded as a best estimate of what the next value of $x$ will be. When the sequence of observations begins at time $t=0$, the simplest form of exponential smoothing is given by the formulas
 
-$s_{0} = x_{0}$
-$s_{t} = \alpha x_{t} + (1-\alpha)s_{t-1}, t>0$
+$s_{0} = x_{0}$  
+$s_{t} = \alpha x_{t} + (1-\alpha)s_{t-1}, t>0$  
 where \alpha is the smoothing factor, and $0 < \alpha > 1$
 ### 5. Holt Winter's Seasonal
 ### 6. ARIMA
